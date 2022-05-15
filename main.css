@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;800;900&display=swap');
+
+* {
+  font-family: Epilogue;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: rgb(0, 128, 255);
+  font-size: 50px;
+  font-weight: 900;
+  margin: 0 5px;
+}
+
+a {
+  font-size: 30px;
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(0, 128, 255);
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftNavbar, .midNavbar, .rightNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.leftNavbar {
+  justify-content: flex-start;
+}
+
+.rightNavbar {
+  justify-content: flex-end;
+}
+
+#logo {
+  width: 80px;
+  margin: 10px 15px;
+}
+
+/* Login page */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginMailPassword {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.loginCheckbox {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.loginSubmit button {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 128, 255);
+  border: 4px solid rgb(0, 128, 255);
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 15px 75px;
+  margin: 20px 0;
+}
