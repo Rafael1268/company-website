@@ -25,11 +25,14 @@
       <a href="">Sign Up</a>
     </div>
   </nav>
-  <div>
+  <div class="signInField">
+    <div class="signInTitle">
+      <h1>Sign In</h1>
+    </div>
     <form action="" method="post">
       <div class="loginMailPassword">
-        <input type="email" name="user_email" id="email" placeholder="Email">
-        <input type="password" name="user_password" id="password" placeholder="Password">
+        <input type="email" name="user_email" id="email" placeholder="Email" required>
+        <input type="password" name="user_password" id="password" placeholder="Password" minlength="6" required>
       </div>
       <div class="loginCheckbox">
         <input type="checkbox" name="stay_logged" id="stayLogged">
